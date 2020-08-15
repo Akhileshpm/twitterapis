@@ -2,10 +2,10 @@ var Twitter = require('twitter');
 
 var client = new Twitter(
 {
-  consumer_key: '',
-  consumer_secret: '',
-  access_token_key: '',
-  access_token_secret: '',
+  consumer_key: 'here goes your api_key',
+  consumer_secret: 'api_secret key',
+  access_token_key: 'token',
+  access_token_secret: 'secret_token',
 });
 
 /*client.get('mutes/users/list', function(error, tweets, response) {
